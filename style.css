@@ -1,0 +1,61 @@
+.main{
+    width: 1000px;
+    height: 1000px;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-auto-flow: row;
+    
+}
+
+.block{
+    width: 48px;
+    height: 48px;
+    background-color: tomato;
+    margin: 1px 1px 1px 1px;
+   
+}
+
+.block-closed-wall{
+    width: 48px;
+    height: 48px;
+    background-color:firebrick;
+    margin: 1px 1px 1px 1px;
+   
+}
+
+.block-closed-start{
+    width: 48px;
+    height: 48px;
+    background-color:black;
+    margin: 1px 1px 1px 1px;
+   
+}
+
+.block-closed-end{
+    width: 48px;
+    height: 48px;
+    background-color:floralwhite;
+    margin: 1px 1px 1px 1px;
+   
+}
+
+.button{
+    margin: 10px;
+    padding: 2px;
+    color: white;
+    background-color: crimson;
+    max-width: 250px;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 2px;
+}
+
+.path{
+    width: 48px;
+    height: 48px;
+    background-color:green;
+    margin: 1px 1px 1px 1px;
+   
+}
